@@ -20,4 +20,4 @@ loc = 'upper right'
 def calcular_dieta():
     df = cria_df.cria_df()
 
-    st.write(df.head())
+    st.write(df)
