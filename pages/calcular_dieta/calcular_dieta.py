@@ -17,7 +17,7 @@ sns.set_style(rc={'axes.facecolor': '#0E1117',
 fundo = '#0E1117'
 loc = 'upper right'
 
-def carregar_dieta():
+def calcular_dieta():
     df = cria_df.cria_df()
 
     st.write(df.head())
