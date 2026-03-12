@@ -20,12 +20,12 @@ loc = 'upper right'
 def calcular_dieta():
     df = cria_df.cria_df()
 
-    # st.write(df)
+    st.write(df)
 
-    ingredientes_disponiveis = df["Ingredientes"].tolist()
+    # ingredientes_disponiveis = df["Ingredientes"].tolist()
 
-    ingredientes_selecionados = st.multiselect(
-    "Escolha os ingredientes",
-    ingredientes_disponiveis)
+    # ingredientes_selecionados = st.multiselect(
+    # "Escolha os ingredientes",
+    # ingredientes_disponiveis)
 
-    df_sel = df[df["Ingredientes"].isin(ingredientes_selecionados)]
+    # df_sel = df[df["Ingredientes"].isin(ingredientes_selecionados)]
